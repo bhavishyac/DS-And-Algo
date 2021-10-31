@@ -1,5 +1,7 @@
-//c program to perform balancing parenthesis 
-//bhavishya.c 20csr029
+/* Author :BHAVISHYA.C
+   Date Modified :31.10.2021
+*/
+
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -45,13 +47,14 @@ int main()
         printf("Expression is not Valid ");
 }
 
-/*
-output :
+/*output :
+
 Enter the Expression :(a+b)
 Expression is Valid !
+Enter the Expression :(a+b
+Expression is not Valid 
 
-...Program finished with exit code 0
-Press ENTER to exit console.*/
+*/
 
 
 
